@@ -1,0 +1,30 @@
+{
+	"name": "akim04/yii2-dish",
+	"description": "Dish module",
+	"keywords": ["yii2", "akim04"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "akim04",
+			"email": "powerdonor04@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"yiisoft/yii2": "^2.0.0",
+		"yiisoft/yii2-bootstrap": "^2.0.0",
+		"kartik-v/yii2-widget-select2": "@dev",
+		"cornernote/yii2-linkall": "*"
+	},
+	"require-dev": {
+	},
+	"autoload": {
+		"psr-4": {
+			"akim04\\dish\\": ""
+		}
+	},
+	"extra": {
+
+	}
+}
